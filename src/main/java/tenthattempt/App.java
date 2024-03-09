@@ -1,21 +1,23 @@
 package tenthattempt;
+import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
         Sedan ToytoaCorolla = new Sedan();
-        ToytoaCorolla.Odometer = 110000;
+        Scanner scanner = new Scanner(System.in);
 
-        if(ToytoaCorolla.Odometer >= 100000)
-        {
+        System.out.println( "What are the crurrent miles on your dashboard?");       
+        ToytoaCorolla.Odometer = scanner.nextInt();
+
+        if(ToytoaCorolla.Odometer >= 100000){
             ToytoaCorolla.CarDiagnostics.CheckEngine = true;
-            System.out.println( "Time to schedule maintenance!" );
+            System.out.println( "Time to schedule maintenance!");
 
+        }
+        else {
+            System.out.println("Your vehicle should be good for now!");
         }
 
     }
