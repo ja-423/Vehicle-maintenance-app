@@ -1,6 +1,7 @@
 package tenthattempt;
 
 public class Sedan {
-    int Odometer;
-    Diagnostics CarDiagnostics = new Diagnostics();
+    Dashboard Dashboard = new Dashboard();
+    Diagnostics Diagnostics = new Diagnostics();
+    SedanMaintenance SedanMaintenance = new SedanMaintenance();
 }
