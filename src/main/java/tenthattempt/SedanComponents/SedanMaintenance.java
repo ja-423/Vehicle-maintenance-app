@@ -1,4 +1,4 @@
-package tenthattempt;
+package tenthattempt.SedanComponents;
 
 public class SedanMaintenance {    
     int brakeFluid;
