@@ -7,4 +7,5 @@ public class Warnings {
     Boolean newHeadLights;
     Boolean newFrontControlArms;
     Boolean newAxel;
+    Boolean tirePressure;
 }

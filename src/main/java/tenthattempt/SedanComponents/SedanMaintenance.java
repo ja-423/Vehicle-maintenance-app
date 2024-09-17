@@ -3,7 +3,7 @@ package tenthattempt.SedanComponents;
 public class SedanMaintenance {    
     int brakeFluid;
     int windshieldWiperFluidLevel;
-    int tirePressure;
+    int tirePressurePSI;
     
     /*
     Will make this optional when getting to methods
