@@ -10,7 +10,7 @@ import SupportIcon from './icons/IconSupport.vue'
 <template>
   <WelcomeItem>
     <template #icon>
-      <button type="button"> <DocumentationIcon /> </button>
+      <router-link to="/logs"> <button type="button" > <DocumentationIcon /> </button> </router-link>
     </template>
     <template #heading>Logs</template>
     Click the icon or header to view your existing logs with Lil' Maintainer
