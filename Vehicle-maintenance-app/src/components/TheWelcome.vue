@@ -10,7 +10,7 @@ import SupportIcon from './icons/IconSupport.vue'
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <button type="button"> <DocumentationIcon /> </button>
     </template>
     <template #heading>Logs</template>
     Click the icon or header to view your existing logs with Lil' Maintainer
@@ -18,7 +18,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <button type="button"> <ToolingIcon /> </button>
     </template>
     <template #heading>Uploaded Docs</template>
     Click the icon or header to view the media you have uploaded to Lil' Maintainer
@@ -26,7 +26,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <button type="button"> <EcosystemIcon /> </button>
     </template>
     <template #heading>Create New Log</template>
     Click the icon or header to create a new log to update your records 🕺🏾
@@ -34,7 +34,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <button type="button"> <CommunityIcon /> </button>
     </template>
     <template #heading>Our Story</template>
     Click to learn more about us and how Lil' Maintainer came to be!
@@ -42,7 +42,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <button type="button"> <SupportIcon /> </button>
     </template>
     <template #heading>Contact Us</template>
     Reach Product of August through

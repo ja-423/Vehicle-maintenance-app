@@ -7,6 +7,12 @@ public class Dashboard {
     private int coolantLevel;
 
     // Getter methods
+/*     
+    For the table of records well need and sort by each of the columns:
+    Description
+    Created Date
+    Updated Date
+     */
     public int getOdometer() {
         return odometer;
     }
