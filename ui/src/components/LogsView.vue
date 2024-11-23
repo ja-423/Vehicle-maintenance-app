@@ -1,7 +1,7 @@
 <template> 
 
   <div>
-    <b-table striped hover :items="items" :fields="fields"></b-table>
+    <b-table dark borderless striped hover :items="items" :fields="fields"></b-table>
   </div>
 
 </template>
