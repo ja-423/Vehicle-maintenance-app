@@ -1,4 +1,4 @@
-package tenthattempt;
+package app;
 
 import static org.junit.Assert.assertTrue;
 

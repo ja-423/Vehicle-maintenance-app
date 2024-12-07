@@ -1,6 +1,7 @@
-package tenthattempt;
+package app;
 import java.util.Scanner;
-import tenthattempt.TypesOfVehicles.Sedan;
+
+import app.TypesOfVehicles.Sedan;
 
 public class App 
 {
@@ -44,11 +45,3 @@ public class App
         scanner.close();
     }
 }
-
-
-/*
- * Things to do:
- * Begin the UI
- * Authorization and authentication for signin and login
- * How and what do use store the information of a user
- */

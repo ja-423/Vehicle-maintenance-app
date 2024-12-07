@@ -1,8 +1,8 @@
-package tenthattempt.TypesOfVehicles;
+package app.TypesOfVehicles;
 
-import tenthattempt.SedanComponents.Dashboard;
-import tenthattempt.SedanComponents.Diagnostics;
-import tenthattempt.SedanComponents.SedanMaintenance;
+import app.SedanComponents.Dashboard;
+import app.SedanComponents.Diagnostics;
+import app.SedanComponents.SedanMaintenance;
 
 public class Sedan {
     public Dashboard Dashboard = new Dashboard();

@@ -1,4 +1,4 @@
-package tenthattempt.SedanComponents;
+package app.SedanComponents;
 
 public class Warnings {
     Boolean newRotors;
