@@ -8,6 +8,8 @@
     :items="items" 
     :fields="fields">
   </b-table>
+
+  <b-button RouterLink to="/">Back</b-button>
   </div>
 
 </template>
