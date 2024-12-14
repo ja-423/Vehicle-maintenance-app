@@ -1,24 +1,32 @@
 package app.Models;
 
 public class LogDetails {
-    private Date UploadDate;
-    private Date EditDate;
+    private String UploadDate;
+    private String EditDate;
     private String RecordName;
     private String RecordDescription;
+    
+    public LogDetails(String uploadDate, String editDate, String recordName, String recordDescription) {
 
-    public int getUploadDate() {
+        this.UploadDate = uploadDate;
+        this.EditDate = editDate;
+        this.RecordName = recordName;
+        this.RecordDescription = recordDescription;
+    }
+
+    public String getUploadDate() {
         return UploadDate;
     }
 
-    public int getEditDate() {
+    public String getEditDate() {
         return EditDate;
     }
 
-    public int getRecordName() {
+    public String getRecordName() {
         return RecordName;
     }
 
-    public int getRecordDescription() {
+    public String getRecordDescription() {
         return RecordDescription;
     }
 
