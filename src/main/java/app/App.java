@@ -1,8 +1,5 @@
 package app;
-import java.time.LocalDate;
 import java.util.Scanner;
-import app.Models.LogDetails;
-import app.Services.ILog;
 
 public class App 
 {

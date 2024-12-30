@@ -1,5 +1,7 @@
 package app.Models;
 
+import java.util.Date;
+
 public class LogDetails {
     private String UploadDate;
     private String EditDate;
@@ -31,11 +33,11 @@ public class LogDetails {
     }
 
     public void setUploadDate(Date UploadDate) {
-        this.UploadDate = UploadDate;
+        this.UploadDate = UploadDate.toString();
     }
 
     public void setEditDate(Date EditDate) {
-        this.EditDate = EditDate;
+        this.EditDate = EditDate.toString();
     }
 
     public void setRecordName(String RecordName) {
