@@ -1,0 +1,4 @@
+app\App.class
+app\Controllers\AppController.class
+app\Services\ILog.class
+app\Models\LogDetails.class
