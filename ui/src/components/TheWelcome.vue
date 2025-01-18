@@ -26,7 +26,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <button type="button"> <EcosystemIcon /> </button>
+      <router-link to="/NewRecord"> <button type="button" > <EcosystemIcon /> </button> </router-link>
     </template>
     <template #heading>Create New Log</template>
     Click the icon or header to create a new log to update your records 🕺🏾
