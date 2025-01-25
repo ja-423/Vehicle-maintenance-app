@@ -16,7 +16,7 @@ import './assets/base.css';
         <RouterLink to="/logs">Logs</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/uploadedDocs">Uploaded Docs</RouterLink>
-        <RouterLink to="/newLog">Create New Log</RouterLink>
+        <RouterLink to="/NewRecord">Create New Log</RouterLink>
         <RouterLink to="/ourStory">Our Story</RouterLink>
         <RouterLink to="/contactUs">Contact Us</RouterLink>
       </nav>
