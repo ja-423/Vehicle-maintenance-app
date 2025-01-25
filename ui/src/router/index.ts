@@ -26,7 +26,7 @@ const router = createRouter({
     },
     {
       path: '/NewRecord',
-      name: 'logs',
+      name: 'NewRecord',
       component: newRecordView
     }
   ]
