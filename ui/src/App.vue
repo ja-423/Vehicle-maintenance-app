@@ -17,7 +17,7 @@ import './assets/base.css';
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/uploadedDocs">Uploaded Docs</RouterLink>
         <RouterLink to="/NewRecord">Create New Log</RouterLink>
-        <RouterLink to="/ourStory">Our Story</RouterLink>
+        <RouterLink to="/OurStory">Our Story</RouterLink>
         <RouterLink to="/contactUs">Contact Us</RouterLink>
       </nav>
     </div>
@@ -25,6 +25,7 @@ import './assets/base.css';
 
   <RouterView />
 </template>
+<script></script>
 
 <style scoped>
 header {
