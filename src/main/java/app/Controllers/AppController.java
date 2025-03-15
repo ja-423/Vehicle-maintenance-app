@@ -15,9 +15,15 @@ public class AppController {
         return "Hello, World!";
     }
 
-    @GetMapping("/antoherGet")
+    @GetMapping("/anotherGet")
     @Operation(summary = "Another message")
     public String anotherThing() {
-        return "Hello, World!";
+        return "Another Message";
+    }
+
+    @GetMapping("/GetAllEntries")
+    @Operation(summary = "Returns all entries from DB")
+    public String returnAllEntries() {
+        return "Another Message";
     }
 }
