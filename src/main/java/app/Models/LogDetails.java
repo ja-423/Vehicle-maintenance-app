@@ -1,15 +1,22 @@
 package app.Models;
 
 import java.util.Date;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+@Entity
 public class LogDetails {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private String UploadDate;
     private String EditDate;
     private String RecordName;
     private String RecordDescription;
     
     public LogDetails(String uploadDate, String editDate, String recordName, String recordDescription) {
-
         this.UploadDate = uploadDate;
         this.EditDate = editDate;
         this.RecordName = recordName;
