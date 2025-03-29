@@ -14,4 +14,16 @@ public class AppController {
     public String sayHello() {
         return "Hello, World!";
     }
+
+    @GetMapping("/anotherGet")
+    @Operation(summary = "Another message")
+    public String anotherThing() {
+        return "Another Message";
+    }
+
+    @GetMapping("/GetAllEntries")
+    @Operation(summary = "Returns all entries from DB")
+    public String returnAllEntries() {
+        return "Another Message";
+    }
 }
